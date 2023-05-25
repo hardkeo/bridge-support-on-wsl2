@@ -1,4 +1,4 @@
-# Enabling bridge and br_netfilter modules in vanilla WSL2 (Ubuntu-22.04) to implement service-mesh in Hashcorp Nomad or Kubernets
+# Enabling bridge and br_netfilter modules in vanilla WSL2 (Ubuntu-22.04) to implement service-mesh in Hashcorp Nomad or Kubernets.
 Enable the bridge and br-netfilter modules on WSL2. This allows you to use "bridge" network mode for [Hashicorp Nomad](https://github.com/hashicorp/nomad) jobs.
 I believe it also works for Kubernetes.
 
