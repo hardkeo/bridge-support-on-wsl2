@@ -1,5 +1,6 @@
 # Enabling bridge and br_netfilter modules in vanilla WSL2 (Ubuntu-22.04)
-Enable the bridge and br-netfilter modules on WSL2. This allows you to use "bridge" network mode for Hashicorp Nomad jobs.
+Enable the bridge and br-netfilter modules on WSL2. This allows you to use "bridge" network mode for [Hashicorp Nomad](https://github.com/hashicorp/nomad) jobs.
+I believe it also works for Kubernetes.
 
 > These are minimal steps and/or interventions that I have tested in two different environments using WSL2 with Ubuntu 22.04 vanilla.
 
